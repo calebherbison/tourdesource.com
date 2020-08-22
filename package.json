@@ -1,24 +1,21 @@
 {
   "name": "tourdesource.com",
   "version": "1.0.0",
-  "description": "A blogging web application",
-  "main": "index.js",
-  "dependencies": {
-    "rollup-plugin-svelte": "^5.2.3",
-    "svelte": "^3.24.1"
-  },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "start": "sirv public"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/timetravelingmoose/tourdesource.com.git"
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^14.0.0",
+    "@rollup/plugin-node-resolve": "^8.0.0",
+    "rollup": "^2.3.4",
+    "rollup-plugin-livereload": "^1.0.0",
+    "rollup-plugin-svelte": "^5.0.3",
+    "rollup-plugin-terser": "^7.0.0",
+    "svelte": "^3.0.0"
   },
-  "author": "Caleb Herbison",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/timetravelingmoose/tourdesource.com/issues"
-  },
-  "homepage": "https://github.com/timetravelingmoose/tourdesource.com#readme"
+  "dependencies": {
+    "sirv-cli": "^1.0.6"
+  }
 }
