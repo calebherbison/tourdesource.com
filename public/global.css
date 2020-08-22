@@ -11,14 +11,27 @@
 footer {
   background-color: #555;
   color: white;
-  padding: 15px;
+  padding: 8px;
 }
 
 /* On small screens, set height to 'auto' for sidenav and grid */
 @media screen and (max-width: 767px) {
   .sidenav {
 	height: auto;
-	padding: 15px;
+	padding: 10px;
   }
   .row.content {height: auto;} 
+}
+
+.fab {
+  padding: 10px;
+  font-size: 15px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa-github-square {
+  background: #555;
+  color: white;
 }
