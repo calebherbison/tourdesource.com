@@ -1,27 +1,27 @@
 <script>
+   import { Router } from 'svelte-router-spa'
+   import { routes } from './routes'
+
    window.onload = function() {
       document.getElementById("year").innerHTML = new Date().getFullYear();
    }
+
 </script>
-<main>
+<header>
    <div class="container-fluid">
-      <header class="blog-header">
-         <div class="nav-scroller py-1 mb-2">
-            <nav class="nav d-flex">
-               <a class="nav-link" href="#">Home</a>
-               <a class="nav-link" href="#about">About</a>
-            </nav>
-         </div>
-      </header>
-      <div class="row content">
-         <div class="col-sm-3 sidenav">
-            <br>
-         </div>
-         <div class="col-sm-9">
-            <br>
-         </div>
-      </div>
-   </div>
+    <header class="blog-header">
+        <div class="nav-scroller py-1 mb-2">
+        <nav class="nav d-flex">
+            <a class="nav-link" href="/">Home</a>
+            <a class="nav-link" href="/about">About</a>
+            <a class="nav-link" href="/blog">Blog</a>
+        </nav>
+        </div>
+    </header>
+</div>
+</header>
+<main>
+<Router {routes} />
 </main>
 <footer class="container-fluid">
 	<div class="row flex-nowrap justify-content-between align-items-center">
