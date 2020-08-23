@@ -1,10 +1,15 @@
 /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
-.row.content {height: 1500px}
+.row.content {
+  height: 1000px;
+  margin-right: 25px!important;
+  margin-left: 25px!important;
+}
     
 /* Set gray background color and 100% height */
 .sidenav {
   background-color: #f1f1f1;
   height: 100%;
+  padding: 20px;
 }
 
 /* Set black background color, white text and some padding */
@@ -17,10 +22,14 @@ footer {
 /* On small screens, set height to 'auto' for sidenav and grid */
 @media screen and (max-width: 767px) {
   .sidenav {
-	height: auto;
-	padding: 15px;
+    height: auto;
+    padding: 15px;
   }
   .row.content {height: auto;} 
+  footer {
+    padding: 2px;
+    font-size: small;
+  }
 }
 
 .fab {
@@ -39,6 +48,7 @@ footer {
 .blog-header {
   line-height: 1;
   border-bottom: 1px solid #e5e5e5;
+  padding-top: 3px;
 }
 
 .blog-header-logo {
