@@ -14,7 +14,7 @@
         <nav class="nav d-flex">
             <a class="nav-link" href="/">Home</a>
             <a class="nav-link" href="/about">About</a>
-            <a class="nav-link" href="/blog">Blog</a>
+            <a class="nav-link" href="/blogs">Blogs</a>
         </nav>
         </div>
     </header>

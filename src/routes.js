@@ -1,6 +1,6 @@
 import Home from './routes/Home.svelte'
 import About from './routes/About.svelte'
-import Blog from './routes/Blog.svelte'
+import Blogs from './routes/Blogs.svelte'
 
 const routes = [
     {
@@ -12,8 +12,8 @@ const routes = [
         component: About,
     },
     {
-        name: '/blog',
-        component: Blog,
+        name: '/blogs',
+        component: Blogs,
     }
 ]
 

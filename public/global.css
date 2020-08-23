@@ -1,10 +1,15 @@
 /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
-.row.content {height: 1000px}
+.row.content {
+  height: 1000px;
+  margin-right: 25px!important;
+  margin-left: 25px!important;
+}
     
 /* Set gray background color and 100% height */
 .sidenav {
   background-color: #f1f1f1;
   height: 100%;
+  padding: 20px;
 }
 
 /* Set black background color, white text and some padding */
@@ -43,6 +48,7 @@ footer {
 .blog-header {
   line-height: 1;
   border-bottom: 1px solid #e5e5e5;
+  padding-top: 3px;
 }
 
 .blog-header-logo {
@@ -80,8 +86,4 @@ footer {
   font-size: .875rem;
   background: #555;
   color: white;
-}
-
-.jumbotron-fluid {
-
 }
