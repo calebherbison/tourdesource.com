@@ -19,10 +19,6 @@ class Home extends React.Component {
                         <h3>Most recent posts</h3>
                     </div>
                     <ul>
-                        <li>Why javascript sucks</li>
-                        <li>Y.A.F.F., Yet Another Frontend Framework</li>
-                        <li>A contribution to the spaghetti lord</li>
-                        <li>A reactive list of recent content?</li>
                     </ul>
                 </div>
             </div>

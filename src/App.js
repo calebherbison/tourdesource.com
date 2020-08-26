@@ -14,6 +14,9 @@ import './App.css';
 
 class App extends React.Component {
   render() {
+    window.onload = function () {
+      document.getElementById("year").innerHTML = new Date().getFullYear();
+    }
     return (
       <BrowserRouter>
         <div className="App">
@@ -38,7 +41,7 @@ class App extends React.Component {
           <footer className="container-fluid">
             <div className="row flex-nowrap justify-content-between align-items-center">
               <div className="col">
-                <span className="text-nowrap">&#169; <span id="year"></span> Caleb Herbison</span> | <span class="text-nowrap"><a href="https://github.com/timetravelingmoose/tourdesource.com" class="fab fa-github-square fa-lg">Github</a></span>
+                <span className="text-nowrap"><a href="https://github.com/timetravelingmoose/tourdesource.com" class="fab fa-github-square fa-lg">Github</a> | &#169; <span id="year"></span> tour de source, Caleb Herbison</span>
               </div>
             </div>
           </footer>

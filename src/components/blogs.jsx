@@ -17,16 +17,6 @@ class Blogs extends React.Component {
                         <h3>All blogs</h3>
                     </div>
                     <ul>
-                        <li>Why javascript sucks</li>
-                        <li>Y.A.F.F., Yet Another Frontend Framework</li>
-                        <li>A contribution to the spaghetti lord</li>
-                        <li>A reactive list of recent content?</li>
-                        <li>Bethesda vs. Blizzard</li>
-                        <li>Blog #5</li>
-                        <li>Blog #4</li>
-                        <li>Blog #3</li>
-                        <li>Blog #2</li>
-                        <li>Blog #1</li>
                     </ul>
                 </div>
                 <div className="col-2 sidenav">

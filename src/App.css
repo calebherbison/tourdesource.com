@@ -1,6 +1,16 @@
 :root {
-  --primary-color: #6D7AD1;
-  --secondary-color: white;
+  --primary-color: #2c3531;
+  --secondary-color: #b5c8c3;
+  --primary-font-color: white;
+  --secondary-font-color: black;
+
+  /* 
+  #116466
+  #2c3531
+  #d1e8e2
+  #d9b08c
+  #ffcb9a
+  */
 }
 
 .row.content {
@@ -9,9 +19,19 @@
   margin-left: 25px!important;
 }
 
+.jumbotron {
+  background-color: var(--secondary-color)!important;
+  color: var(--secondary-font-color)!important;
+}
+
+.sidenav {
+  background-color: var(--secondary-color);
+  color: var(--secondary-font-color);
+}
+
 footer {
   background-color: var(--primary-color);
-  color: white;
+  color: var(--primary-font-color);
   padding: 5px;
 }
 
@@ -30,14 +50,12 @@ footer {
 .fab {
   padding: 10px;
   font-size: 15px;
-  width: 25px;
-  text-align: center;
   text-decoration: none;
 }
 
 .fa-github-square {
   background: var(--primary-color);
-  color: white;
+  color: var(--primary-font-color);
 }
 
 .blog-header {
@@ -72,7 +90,7 @@ footer {
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
   background: var(--primary-color);
-  color: white;
+  color: var(--primary-font-color);
 }
 
 .nav-scroller .nav-link {
@@ -80,5 +98,5 @@ footer {
   padding-bottom: .75rem;
   font-size: .875rem;
   background: var(--primary-color);
-  color: white;
+  color: var(--primary-font-color);
 }
