@@ -1,22 +1,49 @@
 :root {
-  --primary-color: #2c3531;
-  --secondary-color: #b5c8c3;
+  --primary-color: #3A606E;
   --primary-font-color: white;
-  --secondary-font-color: black;
+  --secondary-color: #3A606E;
+  --secondary-font-color: white;
+  --tertiary-color: #E0BE36;
+  --tertiary-font-color: white;
+  --background-color: #E0E0E0;
+}
 
-  /* 
-  #116466
-  #2c3531
-  #d1e8e2
-  #d9b08c
-  #ffcb9a
-  */
+.App {
+    background-color: var(--background-color);
+    border-top: 25px solid var(--secondary-color);
+    border-left: 25px solid var(--secondary-color);
+    border-right: 25px solid var(--primary-color);
+    border-bottom: 25px solid var(--primary-color);
+    border-style: solid;
+    padding: 15px;
+    flex-grow: 1;
+}
+
+@media screen and (max-width: 767px) {
+  .sidenav {
+    display: none;
+  }
+  .row.content {
+    height: auto;
+  }
+  footer {
+    padding: 2px;
+    font-size: x-small;
+  }
+  .jumbotron .jumbotron-fluid {
+    display: none!important;
+  }
+}
+
+.container-fluid .container {
+    background-color: var(--secondary-color);
 }
 
 .row.content {
   height: 1000px;
   margin-right: 25px!important;
   margin-left: 25px!important;
+  padding-top: 10px;
 }
 
 .jumbotron {
@@ -33,18 +60,6 @@ footer {
   background-color: var(--primary-color);
   color: var(--primary-font-color);
   padding: 5px;
-}
-
-@media screen and (max-width: 767px) {
-  .sidenav {
-    height: auto;
-    padding: 15px;
-  }
-  .row.content {height: auto;} 
-  footer {
-    padding: 2px;
-    font-size: small;
-  }
 }
 
 .fab {

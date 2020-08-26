@@ -6,12 +6,12 @@ class About extends React.Component {
     return (
       <div className="row content">
         <div className="col-10">
-          <div className="jumbotron jumbotron-fluid">
-            <div className="container">
+          <div className="jumbotron jumbotron-fluid d-sm-none d-md-block">
               <h1 className="display-4">About</h1>
-            </div>
           </div>
-          <p>A professional software engineer with a focus in software delivery, site reliability engineering, and security.</p>
+          <div className=".container-fluid">
+            <p>A professional software engineer with a focus in software delivery, site reliability engineering, and security.</p>
+          </div>
         </div>
       </div>
     );

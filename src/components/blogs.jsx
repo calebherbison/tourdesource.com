@@ -8,20 +8,17 @@ class Blogs extends React.Component {
             <div className="row content">
                 <div className="col-10">
                     <div className="jumbotron jumbotron-fluid">
-                        <div className="container">
-                            <h1 className="display-4">Welcome to blogs!</h1>
-                            <p className="lead">Search and filter blogs</p>
+                        <h1>Welcome to blogs!</h1>
+                        <p>Search and filter blogs</p>
+                    </div>
+                    <div className="row">
+                        <div className="col">
+                            <div className=".container-fluid">
+                                <h3>Search results</h3>
+                            </div>
                         </div>
-                    </div>
-                    <div className="container">
-                        <h3>All blogs</h3>
-                    </div>
-                    <ul>
-                    </ul>
-                </div>
-                <div className="col-2 sidenav">
-                    <div className="container">
-                        <h3>Search</h3>
+                        <div className="col">
+                        </div>
                     </div>
                 </div>
             </div>
