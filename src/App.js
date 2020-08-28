@@ -1,11 +1,9 @@
 import React from "react";
 import Home from "./components/home";
 import About from "./components/about";
-import Blogs from "./components/blogs";
 
 import {
   BrowserRouter,
-  Switch,
   Route,
   Link
 } from "react-router-dom";
