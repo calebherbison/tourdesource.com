@@ -1,19 +1,19 @@
 :root {
-  --primary-color: #3A606E;
+  --primary-color: #124559;
   --primary-font-color: white;
-  --secondary-color: #3A606E;
+  --secondary-color: #598392;
   --secondary-font-color: white;
-  --tertiary-color: #E0BE36;
+  --tertiary-color: #598392;
   --tertiary-font-color: white;
-  --background-color: #E0E0E0;
+  --background-color: #EFF6E0;
 }
 
 .App {
     background-color: var(--background-color);
-    border-top: 25px solid var(--secondary-color);
-    border-left: 25px solid var(--secondary-color);
-    border-right: 25px solid var(--primary-color);
-    border-bottom: 25px solid var(--primary-color);
+    border-top: 25px solid var(--primary-color);
+    border-left: 25px solid var(--primary-color);
+    border-right: 40px solid var(--tertiary-color);
+    border-bottom: 40px solid var(--tertiary-color);
     border-style: solid;
     padding: 15px;
     flex-grow: 1;
@@ -35,6 +35,11 @@
   }
 }
 
+a.nav-link:hover {
+  color: white;
+  background-color: var(--tertiary-color);
+}
+
 .container-fluid .container {
     background-color: var(--secondary-color);
 }
@@ -46,9 +51,9 @@
   padding-top: 10px;
 }
 
-.jumbotron {
-  background-color: var(--secondary-color)!important;
-  color: var(--secondary-font-color)!important;
+.jumbotron-fluid {
+  background-color: var(--background-color)!important;
+  color: var(--primary-font-color)!important;
 }
 
 .sidenav {
@@ -74,9 +79,8 @@ footer {
 }
 
 .blog-header {
-  line-height: 1;
-  border-bottom: 1px solid var(--secondary-color);
-  padding-top: 3px;
+  line-height: 0.5;
+  width: max-content;
 }
 
 .blog-header-logo {
@@ -98,7 +102,6 @@ footer {
 .nav-scroller .nav {
   display: flex;
   flex-wrap: nowrap;
-  padding-bottom: 1rem;
   margin-top: -1px;
   overflow-x: auto;
   text-align: center;

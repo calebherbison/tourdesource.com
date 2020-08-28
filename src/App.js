@@ -26,7 +26,6 @@ class App extends React.Component {
                 <div className="nav-scroller">
                   <nav className="nav d-flex rounded-0">
                     <Link to="/" className="nav-link">Home</Link>
-                    <Link to="/blogs" className="nav-link">Blogs</Link>
                     <Link to="/about" className="nav-link">About</Link>
                   </nav>
                 </div>
@@ -35,7 +34,6 @@ class App extends React.Component {
           </header>
           <div className="routes">
             <Route exact path="/" component={Home}/>
-            <Route exact path="/blogs" component={Blogs} />
             <Route exact path="/about" component={About} />
           </div>
           <footer className="container-fluid">
